@@ -23,8 +23,8 @@ public class MailServiceImpl implements MailService {
 
     @Override
     public void sendConfirmCode(Order order) {
-        final String username = "batononlineshop@gmail.com";
-        final String password = "123qwe-=";
+        final String username = "kijanitsayulija@gmail.com";
+        final String password = "oriflame1221";
 
         Properties properties = new Properties();
         properties.put("mail.smtp.host", "smtp.gmail.com");
